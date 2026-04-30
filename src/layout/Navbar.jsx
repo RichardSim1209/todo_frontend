@@ -73,6 +73,11 @@ function Navbar() {
                     Dashboard
                   </Link>
                 </li>
+                <li className="p-2">
+              <Link to="/signout" className="text-gray-700 hover:text-blue-700 dark:text-gray-400 dark:hover:text-white">
+                Signout
+              </Link>
+            </li>
               </>
             ) : (
               <>
